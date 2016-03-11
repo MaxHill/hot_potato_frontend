@@ -1,0 +1,30 @@
+body {
+    color: #293f54;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    margin:0;
+    padding:0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+//Potato Page
+.Container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+
+@import "./animations.scss";
+@import "./components/player-list.scss";
+@import  "./components/player.scss";
+@import "./components/gamearea.scss";

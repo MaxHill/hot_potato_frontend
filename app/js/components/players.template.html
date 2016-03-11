@@ -1,0 +1,7 @@
+<div class="Player-list">
+    <h4 class="Player-list__title"><slot>Players</slot></h4>
+    <div class="Player" v-for="player in players">
+        <span class="Player__name">{{ player.name }}</span>
+        <span class="Player__score"><strong>{{ player.score }}</strong></span>
+    </div>
+</div>
